@@ -33,8 +33,8 @@ printf("%d ",a); // 20 will be printed 3 times since it is the local value of a
 }  
 }  
 printf("%d ",a); // 11 will be printed since the scope of a = 20 is ended.  
-}*/
-
+}
+*/
 
 // STATIC STORAGE CLASS
 
@@ -116,6 +116,7 @@ register int a;
 printf("%d",a);  
 } 
 */
+
 /*
 #include <stdio.h>  
 // below example  will give a compile time error since we can not access the address of a register variable.   
@@ -130,16 +131,16 @@ printf("%u",&a);
 
 
 //EXTERN STORAGE CLASS
-/*
+
 // variable a is defined globally, the memory will not be allocated to a  
 #include <stdio.h>  
-int a;   
+int a;    
 int main()  
 {  
 extern int a; 
-printf("%d",a);  //ans 0
+printf("%d",a);  //ans 0  ....default value is 0
 }
-*/
+
 
 
 /*
@@ -163,7 +164,7 @@ printf("%d",a);
 }  
 */
 
-
+/*
 #include<stdio.h>
 int a=6;
 int main()
@@ -179,6 +180,7 @@ int main()
 	printf("%d\n",a);    //it will print the value of a which is local to scope
 	return 0;
 }
+*/
 
 
 
