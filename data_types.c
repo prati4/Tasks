@@ -23,7 +23,7 @@ int main()
    printf("Storage size for float data type:%d \n",sizeof(c));
    
    
-   //The size of float (single precision float data type) is 4 bytes. And the size of double (double precision float data type) is 8 bytes.
+   //The size of double (single precision float data type) is 4 bytes. And the size of double (double precision float data type) is 8 bytes.
     printf("Storage size for double data type:%d\n",sizeof(d));
     return 0;
 }
