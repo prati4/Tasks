@@ -15,9 +15,9 @@ int  main ()
         for(k = 0; k < i; k++){
             if(i == (n-1)){
             	printf("__");
-			}else{
-				printf ("  ");
-			}
+				}else{
+					printf ("  ");
+				}
 			
         }
     printf ("\\ \n");

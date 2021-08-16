@@ -7,8 +7,8 @@ int main()
   scanf("%c",&choice);
   printf("Enter the first number\n");
   scanf("%lf",&num1);
-  printf("Enter the first number\n");
-  scanf("%lf",&num1);
+  printf("Enter the second number\n");
+  scanf("%lf",&num2);
   
   switch(choice)
   {
