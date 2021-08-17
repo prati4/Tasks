@@ -20,16 +20,16 @@ void frequency_count(int array[],int n)
 int main()
 {
 	int n,i;
-	printf("Print array size\n");
-	scanf("%d",&n);
+	printf("Print array size\n"); 
+	scanf("%d",&n);    // array size
     int array[n];
     printf("Enter the elements\n");
     
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++)   // taking array element
     {
     	scanf("%d",&array[i]);
 	 }
-	 frequency_count(array,n);
+	 frequency_count(array,n);   
 	 return 0;
 }
 
